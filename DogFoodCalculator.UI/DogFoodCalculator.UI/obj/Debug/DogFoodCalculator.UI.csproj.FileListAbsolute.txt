@@ -1,0 +1,14 @@
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\bin\Debug\DogFoodCalculator.UI.exe.config
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\bin\Debug\DogFoodCalculator.UI.exe
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\bin\Debug\DogFoodCalculator.UI.pdb
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.csprojAssemblyReference.cache
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.csproj.CoreCompileInputs.cache
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.exe
+C:\Repos\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.pdb
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\bin\Debug\DogFoodCalculator.UI.exe.config
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\bin\Debug\DogFoodCalculator.UI.exe
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\bin\Debug\DogFoodCalculator.UI.pdb
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.csprojAssemblyReference.cache
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.csproj.CoreCompileInputs.cache
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.exe
+C:\Repos\kangprojects\DogFoodCalculator.UI\DogFoodCalculator.UI\obj\Debug\DogFoodCalculator.UI.pdb
