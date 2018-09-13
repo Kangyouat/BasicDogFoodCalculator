@@ -10,8 +10,10 @@ namespace DogFoodCalculator.UI
     {
         internal void Start()
         {
+            //Creating an instance of the class ConsoleIO making it equal to the variable input. Note that the method Asking is static.
            var input = ConsoleIO.Asking();
         
+            //Uses the class Calculate and the method named CalculateCalories and also uses the user input. Note that the method CalculateCalories is static.
             Calculate.CalculateCalories(input);
         }   
     }

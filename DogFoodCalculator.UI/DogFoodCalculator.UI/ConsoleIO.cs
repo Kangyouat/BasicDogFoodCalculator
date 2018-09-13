@@ -20,7 +20,8 @@ namespace DogFoodCalculator.UI
             Console.WriteLine();
 
             int id = 0;
-
+            
+            //it will keep looping until user input is an integer 
             while(!int.TryParse(Console.ReadLine(), out id))
             {
                 Console.WriteLine("Please enter an integer.");

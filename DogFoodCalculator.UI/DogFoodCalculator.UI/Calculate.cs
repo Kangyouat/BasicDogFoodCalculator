@@ -11,10 +11,14 @@ namespace DogFoodCalculator.UI
         public static int CalculateCalories(int userInput)
         {
             bool valid = true;
+            
+            //try block is block of code in which exceptions occur
             try
-            {
+            { 
+                //will continue looping until valid is false
                 while (valid)
                 {
+                    //if the user entered a number less than or equal to 0, it will write the following statement and end the loop
                     if (userInput <= 0)
                     {
                         Console.WriteLine("You must type in a positive number. Try again next time.");
@@ -22,6 +26,7 @@ namespace DogFoodCalculator.UI
                         valid = false;
                     }
 
+                    //if the user entered a number less than or equal to 400, it will write the following statement and end the loop
                     else
                         if (userInput >= 400)
                     {
@@ -33,9 +38,11 @@ namespace DogFoodCalculator.UI
                         valid = false;
                     }
 
+                    //if the user entered a number less than 0 and less than 399, it will write the following statement and end the loop
                     else
                        if (userInput > 0 && userInput <= 399)
                     {
+                        //this is a math formula that is equivalent to:(dog weight in kg)^(3/4) then multiply by 70.
                         double restingEnergyRequirements = (int)Math.Round((Math.Pow(userInput, 0.75) * 70));
 
                         Console.WriteLine($"You need to feed your dog {restingEnergyRequirements} calories per day");
@@ -44,6 +51,8 @@ namespace DogFoodCalculator.UI
                         Console.ReadKey();
                         valid = false;
                     }
+
+                    //if the user entered anything besides what was above, it will automatically be set false and end the loop
                     else
                     {
                         valid = false;
@@ -51,6 +60,8 @@ namespace DogFoodCalculator.UI
 
                 }
             }
+
+            //catch block catches and handles try block exceptions
             catch (FormatException)
             {
                 Console.Write("You must enter a whole number.");

@@ -10,8 +10,10 @@ namespace DogFoodCalculator.UI
     {
         static void Main(string[] args)
         {
+            //Creating an instance of a class called SetUpWorkflow
             SetUpWorkflow setUp = new SetUpWorkflow();
 
+            //Using the class SetUpWorkflow by using the variable setUp and then using its method called Start
             setUp.Start();
         }
     }
